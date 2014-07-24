@@ -1,0 +1,230 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+ h1 {
+	font-family: capture it;
+	letter-spacing: 3px;
+	
+}
+
+body,h2, h3, h4, h5, h6{font-family: sinkin sans 400;}
+
+
+.tagline h3{font-size: 50px;
+			font-family: capture it;}
+
+/*landing page image*/
+.intro-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 100px;
+	color: #f8f8f8;
+	background: url('http://i.imgur.com/5qAkxGa.jpg') no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+#credits{position:relative;
+		top:30px;}
+
+/*second page image*/
+#secondpage {
+	padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 200px;
+	color: #f8f8f8;
+	background: url('http://i.imgur.com/Zt7vqN1.jpg') no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+html,body{height: 100%;}
+
+#stage5{height:100%;}
+
+#secondpage p{text-align: left;}
+
+#secondpage h2{position: relative;}
+
+
+
+
+.intro-message {
+	position: relative;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+/*h1 Stage 5 header*/ 
+.intro-message > h1 {
+	margin: 0;
+	font-size: 200px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.synopsis{position: absolute;
+			height: 80%;
+			bottom: 10%;
+			top: 10%;
+			width: 20%;
+			left: 10%;
+			color: white;}
+
+.trailer{position: absolute;
+		height:40%;
+		bottom:20%;
+		color: white;
+		right: 10%;}
+
+
+#map{position: absolute;
+	left: 30%;
+	top:23%;
+	bottom:0%;}
+
+.intro-message > h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.synopsis h2{font-family: capture it;
+			font-size: 4.50em;}
+
+
+
+.trailer h2{font-family: capture it;
+			font-size: 4.50em;}
+
+
+
+@media (max-width: 767px) {
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	.intro-message > h1 {
+		font-size: 3em;
+	}
+
+	ul.intro-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.intro-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+
+	.intro-divider {
+		width: 100%;
+	}
+
+	.synopsis{font-size: 10px;
+					}
+
+	#credits{font-size:10px;}
+}
+
+.nav{background-color: #222222}
+
+.network-name {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.content-section-a {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+.content-section-b {
+	padding-bottom: 100px;
+	padding-top: 200px;
+	background: url('http://i.imgur.com/2hsGHKv.jpg') no-repeat center center;
+	background-size: cover;
+}
+/*Tickets header*/
+.container h1{font-size: 200px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	color: #f8f8f8;
+	}
+/*cinema details box*/
+.box{background-color: #C7B299;
+	width:100%;
+	height:300px;
+	font-color:#e7e7e7;}
+
+#cinema {color: #e7e7e7;}
+
+
+.table{width: 40%;}
+
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+	ul.banner-social-buttons {
+		float: left;
+		margin-top: 15px;
+	}	
+}
+
+@media (max-width: 767px) {
+	.banner h2 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+		font-size: 3em;
+	}
+
+	ul.banner-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+	.tickets{visibility: hidden;}
+	#tickets h1{font-size: 80px;}
+	.table{visibility: hidden;}
+	#promo h4{position: absolute;
+				margin-top:20%;}
+	#button{position: absolute;
+				margin-top: 40%;}
+	.trailer h2{position:relative;
+				left:25%;
+				top:70%;
+				font-size: 20px}
+	.trailer iframe{width:80%;
+					height:80%;
+					position:relative;
+					left:10%;}
+	.synopsis{visibility: hidden;}
+	#map{visibility: hidden;}
+	.laurels{position: relative;
+			left:20%;}
+
+	ul.banner-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}	
+	.intro-message > h1{font-size: 100px;}
+}
+	.intro-message > h3{font-size: 40px;}
+
+
+
+#button{position: relative;
+		top: -35px}
+
+#FB{color: white;}
+
+.footer {padding: 0px 0;
+		margin: -0px 0;
+}
+
+#promo{position: relative;	
+		top: -30px;}
+
+p.copyright {
+	margin: 15px 0 0;
+}
